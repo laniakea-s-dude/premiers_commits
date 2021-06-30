@@ -1,7 +1,7 @@
 def multi(n, max):
     ### Renvoi la table de n jusqu'à i ###
-    i = 0
-    while i < max:
+    i = 1
+    while i =< max:
         print(n, "x", i, "=", n * i)
         i += 1
 n = 7
