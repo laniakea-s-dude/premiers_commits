@@ -9,5 +9,5 @@ def multi(n, max):
         print(n, "x", i, "=", n * i)
         i += 1
 
-print("Table de", n,"par", max, ":")
-print(multi(n, max))
+print("Table de", n,"jusqu'à", max, ":")
+multi(n, max)
