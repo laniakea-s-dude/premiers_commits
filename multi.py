@@ -6,4 +6,5 @@ def multi(n, max):
         i += 1
 n = 7
 max = 15
+print("Table de", n, ":")
 print(multi(n, max))
