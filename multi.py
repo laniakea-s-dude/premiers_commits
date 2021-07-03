@@ -3,7 +3,7 @@ n = rd(1,50000)
 max = rd(5,50)
 
 def multi(n, max):
-    ### Renvoi la table de n  jusqu'à i au hazard ###
+    ### Renvoi la table de n jusqu'à i au hasard ###
     i = 1
     while i <= max:
         print(n, "x", i, "=", n * i)
